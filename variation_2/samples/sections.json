@@ -1,0 +1,8 @@
+[
+  { "id": "CIS3100-1", "subjectCode": "CIS3100", "subjectName": "Data Structures",          "days": ["M","W"],  "start": "08:00", "end": "09:30" },
+  { "id": "CIS3100-2", "subjectCode": "CIS3100", "subjectName": "Data Structures",          "days": ["T","Th"], "start": "10:00", "end": "11:30" },
+  { "id": "CIS3320-1", "subjectCode": "CIS3320", "subjectName": "Networking II",            "days": ["M","W"],  "start": "10:00", "end": "11:30" },
+  { "id": "CIS2103-1", "subjectCode": "CIS2103", "subjectName": "Object-Oriented Programming","days": ["T","Th"], "start": "08:00", "end": "09:30" },
+  { "id": "CIS2103-2", "subjectCode": "CIS2103", "subjectName": "Object-Oriented Programming","days": ["M","W"],  "start": "13:00", "end": "14:30" },
+  { "id": "MATH2010-1","subjectCode": "MATH2010","subjectName": "Calculus I",               "days": ["T","Th"], "start": "13:00", "end": "14:30" }
+]

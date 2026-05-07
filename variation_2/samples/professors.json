@@ -1,0 +1,26 @@
+[
+  {
+    "id": "P1", "name": "Dr. Reyes",
+    "availability": [{ "days": ["M","W"], "start": "08:00", "end": "12:00" }],
+    "teachableSubjects": ["CIS3100", "CIS2103"],
+    "loadCap": 2
+  },
+  {
+    "id": "P2", "name": "Dr. Cruz",
+    "availability": [{ "days": ["T","Th"], "start": "08:00", "end": "15:00" }],
+    "teachableSubjects": ["CIS3100", "CIS2103", "MATH2010"],
+    "loadCap": 2
+  },
+  {
+    "id": "P3", "name": "Dr. Santos",
+    "availability": [{ "days": ["M","W"], "start": "09:00", "end": "16:00" }],
+    "teachableSubjects": ["CIS3320", "CIS2103"],
+    "loadCap": 2
+  },
+  {
+    "id": "P4", "name": "Dr. Lim",
+    "availability": [{ "days": ["M","T","W","Th"], "start": "12:00", "end": "16:00" }],
+    "teachableSubjects": ["MATH2010"],
+    "loadCap": 1
+  }
+]

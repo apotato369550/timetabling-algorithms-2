@@ -1,0 +1,33 @@
+{
+  "slots": [
+    { "id": "MW-08",  "days": ["M","W"],  "start": "08:00", "end": "09:30" },
+    { "id": "MW-10",  "days": ["M","W"],  "start": "10:00", "end": "11:30" },
+    { "id": "MW-13",  "days": ["M","W"],  "start": "13:00", "end": "14:30" },
+    { "id": "TTh-08", "days": ["T","Th"], "start": "08:00", "end": "09:30" },
+    { "id": "TTh-10", "days": ["T","Th"], "start": "10:00", "end": "11:30" },
+    { "id": "TTh-13", "days": ["T","Th"], "start": "13:00", "end": "14:30" }
+  ],
+  "subjects": [
+    { "code": "CIS3100",  "name": "Data Structures",            "requiredRoomType": "computer", "sectionsNeeded": 1 },
+    { "code": "CIS3320",  "name": "Networking II",              "requiredRoomType": "lab",      "sectionsNeeded": 1 },
+    { "code": "CIS2103",  "name": "Object-Oriented Programming","requiredRoomType": "computer", "sectionsNeeded": 1 },
+    { "code": "MATH2010", "name": "Calculus I",                 "requiredRoomType": "lecture",  "sectionsNeeded": 1 }
+  ],
+  "professors": [
+    { "id": "P1", "name": "Dr. Reyes",  "availability": [{ "days": ["M","W"],          "start": "08:00", "end": "12:00" }], "teachableSubjects": ["CIS3100","CIS2103"],            "loadCap": 2 },
+    { "id": "P2", "name": "Dr. Cruz",   "availability": [{ "days": ["T","Th"],         "start": "08:00", "end": "15:00" }], "teachableSubjects": ["CIS3100","CIS2103","MATH2010"], "loadCap": 2 },
+    { "id": "P3", "name": "Dr. Santos", "availability": [{ "days": ["M","W"],          "start": "09:00", "end": "16:00" }], "teachableSubjects": ["CIS3320","CIS2103"],            "loadCap": 2 },
+    { "id": "P4", "name": "Dr. Lim",    "availability": [{ "days": ["M","T","W","Th"], "start": "12:00", "end": "16:00" }], "teachableSubjects": ["MATH2010"],                     "loadCap": 1 }
+  ],
+  "rooms": [
+    { "id": "R1", "name": "CompLab-A", "type": "computer", "capacity": 2, "availability": [{ "days": ["M","T","W","Th","F"], "start": "07:00", "end": "18:00" }] },
+    { "id": "R2", "name": "Lec-101",   "type": "lecture",  "capacity": 3, "availability": [{ "days": ["M","T","W","Th","F"], "start": "07:00", "end": "18:00" }] },
+    { "id": "R3", "name": "NetLab",    "type": "lab",      "capacity": 2, "availability": [{ "days": ["M","T","W","Th","F"], "start": "07:00", "end": "18:00" }] }
+  ],
+  "students": [
+    { "id": "ST1", "name": "Anna",  "requiredSubjects": ["CIS3100","CIS3320","MATH2010"] },
+    { "id": "ST2", "name": "Bea",   "requiredSubjects": ["CIS3100","CIS2103","MATH2010"] },
+    { "id": "ST3", "name": "Carlo", "requiredSubjects": ["CIS3320","CIS2103"] },
+    { "id": "ST4", "name": "Dina",  "requiredSubjects": ["CIS3100","MATH2010"] }
+  ]
+}
